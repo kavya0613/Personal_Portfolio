@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>my portfolio</title>
+
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        
+
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h3>Adepu Kavya</h3>
+            <p>As a final year student, my goal is to secure a position that allows me to apply and further develop the skills and knowledge acquired during my academic journey. I am eager to embark on a professional path where I can contribute positively to projects, collaborate with diverse teams, and continue learning and growing within the industry.</p>
+            <div class="social-icons">
+                 <a href="https://www.linkedin.com/in/adepukavya/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:kavyaadepu07@gmail.com"><i class="fa-solid fa-at"></i></a>
+            
+            </div>
+            <a href="images/kavya's resume (3).pdf" download class="btn">Download Resume</a>
+        </div>
+    </section>
+    <!--about section-->
+    <section class="about" id="about">
+        <div class="abt-img">
+            <img src="images/KAVYA.jpg" alt=" ">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p> A passionate and driven individual from the culturally rich city of Warangal, I'm pursuing a B.Tech in Computer Science at Jayamukhi Institute Of Technological Sciences, 
+                with a strong CGPA of 8.38. 
+                Specializing in CSE, I'm excited about diving into the dynamic world of software development.
+                Proficient in Python, C++, JavaScript, SQL, HTML, and CSS, I've organized tech events in our college and completed courses from Infosys Springboard and Oracle Dev Gym. 
+                Additionally, My internship with PSYLIQ helped me enhance my skills in database management and query writing.
+                It gave me valuable insights into how databases are used in real-life situations.
+            </p>
+            
+            
+        </div>
+    </section>
+    <!--education section-->
+    <section class="education" id="education">
+        <h3 class="head-ing">Education</h3>
+        <ul class="b-tech">
+            <li ><span>B.Tech in Computer Science Engineering</span></li>
+            <li>Jayamukhi Institute of Technological Sciences, Narsampet.</li>
+            <li>CGPA: 8.31</li>
+            <li>Duration: 2020 - 2024</li></ul>
+
+            <ul class="clg">
+            <li><span>Intermediate (MPC)</span></li>
+            <li>SR.Jr College  Pochamma Maidan, Warangal.</li>
+            <li>Marks:879</li>
+            <li>Duration: 2018 - 2020</li>
+        </ul>
+        <ul class="school">
+            <li><span>High School</span></li>
+            <li>Platinum Jubilee High School, Warangal.</li>
+            <li>CGPA: 8.7</li>
+            <li>Duration: 2017 - 2018</li>
+        </ul>
+    </section>
+    <!--skills section-->
+    <section class="skills" id="skills">
+        <div class="first">
+        <h2 class="heading-skill">My <span>Skills</span></h2>
+        <div class="first-set ">
+          <img
+            src="images/Python-logo-notext.svg.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="images/c++.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+          src="images/Database-mysql.png"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+         <img
+            src="images/dbms.jpeg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        <div class="second-set ">
+            <img
+              src="images/HTML5.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="images/CSS3_.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+            src="images/js2.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+           <img
+              src="images/bi.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+    
+    </div>
+
+    </section>
+    <!--project section-->
+    <section class="project" id="project">
+        <h2 class="heading">My <span>Project</span></h2>
+        <div class="proj-container">
+            <div class="row">
+                <div class="pic1">
+                    <img
+                    src="images/Picture1.png"
+                    alt=""
+                    loading="lazy"
+                    class="project-pic"
+                     />
+                </div>
+                <div class="pic1">
+                    <img
+                    src="images/Picture2.png"
+                    alt=""
+                    loading="lazy"
+                    class="project-pic"
+                    />
+                </div>
+            </div>
+            
+    </div>
+    <h3 class="proj-title">Music Recommendation System by Facial Emotion</h3>
+     <p class="project-box">The emotion recognition model in this project is trained on the FER 2013 dataset, enabling it to detect seven different emotions. The project operates by capturing live video feed from a webcam, passing it through the trained model to obtain an emotion prediction. Based on the predicted emotion, the application retrieves a playlist of songs from Spotify using the Spotipy wrapper and recommends the songs by displaying them on the screen</p>
+
+
+    </section>
+    <!--contact section-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Fullname" id="name" required>
+                <input type="email" placeholder="Email" id=email required>
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number" id=mobilenumber>
+                <input type="text" placeholder="Email subject" id=emailsub>
+
+            </div>
+            <textarea name="" id="msg" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message"  class="btn">
+        </form>
+        <!--footer section-->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2024 by kavya | All Rights Reserved.</p>
+            </div>
+        </footer>
+
+    </section>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
